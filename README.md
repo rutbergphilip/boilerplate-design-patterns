@@ -11,13 +11,13 @@ Coming
 ### Design Patterns
 
 - [x] Repository
+- [x] Factory
+- [x] Abstract Factory
 
 ## Upcoming Boilerplates
 
 ### Design Patterns
 
-- [ ] Factory
-- [ ] Abstract Factory
 - [ ] Builder
 - [ ] Singleton
 - [ ] Prototype

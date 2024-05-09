@@ -18,6 +18,14 @@
       {
         "language": "typescript",
         "path": "./snippets/design-patterns/repository/repository.slim.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/design-patterns/factory/factory.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/design-patterns/factory/abstract-factory.code-snippets"
       }
     ]
   }

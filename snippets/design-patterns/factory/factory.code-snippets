@@ -1,0 +1,34 @@
+{
+  "Factory": {
+    "prefix": "bm:design-patterns:factory",
+    "body": [
+      "interface Widget {",
+      "  perform(): void;",
+      "}",
+      "",
+      "class ${1:WidgetA} implements Widget {",
+      "  perform(): void {",
+      "    console.log('Quick operation A');",
+      "  }",
+      "}",
+      "",
+      "class ${2:WidgetB} implements Widget {",
+      "  perform(): void {",
+      "    console.log('Quick operation B');",
+      "  }",
+      "}",
+      "",
+      "class ${3:Factory} {",
+      "  static createWidget(type: string): Widget {",
+      "    if (type === '${4:A}') return new ${1:WidgetA}();",
+      "    if (type === '${5:B}') return new ${2:WidgetB}();",
+      "    throw new Error('Unknown Type');",
+      "  }",
+      "}",
+      "",
+      "const widget = ${3:Factory}.createWidget('${4:A}');",
+      "widget.perform();"
+    ],
+    "description": "Create a factory"
+  }
+}
