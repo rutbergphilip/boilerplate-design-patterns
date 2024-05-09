@@ -1,6 +1,6 @@
 {
-  "SimpleBuilderPattern": {
-    "prefix": "bm:design-patterns:builder:simple",
+  "BuilderPattern": {
+    "prefix": "bm:design-patterns:builder:full",
     "body": [
       "class ${1:PersonBuilder} {",
       "  private name: string;",
