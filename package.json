@@ -1,7 +1,7 @@
 {
-  "name": "bdp",
-  "displayName": "Boilerplate Design Patterns",
-  "description": "Quickly generate boilerplate design patterns for Typescript",
+  "name": "boilerplate-master",
+  "displayName": "Boilerplate Master",
+  "description": "Quickly generate boilerplate code for your projects.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
@@ -13,7 +13,11 @@
     "snippets": [
       {
         "language": "typescript",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/design-patterns/repository/repository.full.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/design-patterns/repository/repository.slim.code-snippets"
       }
     ]
   }

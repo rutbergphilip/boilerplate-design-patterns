@@ -1,0 +1,31 @@
+{
+  "Repository with operations": {
+    "prefix": "bm:design-patterns:repository:full",
+    "body": [
+      "export class ${1:Repository} {",
+      "  constructor() {}",
+      "",
+      "  async ${2:find}() {",
+      "    throw new Error('Method not implemented');",
+      "  }",
+      "",
+      "  async ${3:findOne}() {",
+      "    throw new Error('Method not implemented');",
+      "  }",
+      "",
+      "  async ${4:create}() {",
+      "    throw new Error('Method not implemented');",
+      "  }",
+      "",
+      "  async ${5:update}() {",
+      "    throw new Error('Method not implemented');",
+      "  }",
+      "",
+      "  async ${6:delete}() {",
+      "    throw new Error('Method not implemented');",
+      "  }",
+      "}"
+    ],
+    "description": "Create a full repository class with various operations"
+  }
+}
