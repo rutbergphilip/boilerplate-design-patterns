@@ -13,11 +13,11 @@
     "snippets": [
       {
         "language": "typescript",
-        "path": "./snippets/design-patterns/repository.full.code-snippets"
+        "path": "./snippets/design-patterns/repository/repository.full.code-snippets"
       },
       {
         "language": "typescript",
-        "path": "./snippets/design-patterns/repository.slim.code-snippets"
+        "path": "./snippets/design-patterns/repository/repository.slim.code-snippets"
       }
     ]
   }
