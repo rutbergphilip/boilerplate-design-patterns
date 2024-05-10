@@ -26,6 +26,10 @@
       {
         "language": "typescript",
         "path": "./snippets/design-patterns/factory/abstract-factory.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/design-patterns/builder/builder.full.code-snippets"
       }
     ]
   }

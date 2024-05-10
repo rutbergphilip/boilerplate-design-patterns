@@ -13,12 +13,12 @@ Coming
 - [x] Repository
 - [x] Factory
 - [x] Abstract Factory
+- [x] Builder
 
 ## Upcoming Boilerplates
 
 ### Design Patterns
 
-- [ ] Builder
 - [ ] Singleton
 - [ ] Prototype
 - [ ] Adapter
@@ -49,6 +49,7 @@ Coming
 - [ ] Express
 - [ ] Fastify
 - [ ] Koa
+- [ ] Docker
 
 ## Known Issues
 
