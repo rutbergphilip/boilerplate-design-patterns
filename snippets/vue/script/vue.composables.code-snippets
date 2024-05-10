@@ -1,26 +1,26 @@
 {
   "VueRef": {
-    "prefix": "bm:vue:ref",
+    "prefix": "vue:ref",
     "body": ["const ${1:name} = ref($2)"],
     "description": "Define a reactive reference."
   },
   "VueRefTyped": {
-    "prefix": "bm:vue:ref-typed",
+    "prefix": "vue:ref-typed",
     "body": ["const ${1:name} = ref<${2:type}>($3)"],
     "description": "Define a typed reactive reference."
   },
   "VueComputed": {
-    "prefix": "bm:vue:computed",
+    "prefix": "vue:computed",
     "body": ["const ${1:name} = computed(() => $2)"],
     "description": "Define a computed property."
   },
   "VueComputedTyped": {
-    "prefix": "bm:vue:computed-typed",
+    "prefix": "vue:computed-typed",
     "body": ["const ${1:name} = computed<${2:type}>(() => $3)"],
     "description": "Define a typed computed property."
   },
   "VueComputedGetSet": {
-    "prefix": "bm:vue:computed-get-set",
+    "prefix": "vue:computed-get-set",
     "body": [
       "const ${1:name} = computed({",
       "  get: () => $2,",
@@ -32,69 +32,69 @@
     "description": "Define a computed property with getter and setter."
   },
   "VueReactive": {
-    "prefix": "bm:vue:reactive",
+    "prefix": "vue:reactive",
     "body": ["const ${1:name} = reactive({$2})"],
     "description": "Define a reactive object."
   },
   "VueReactiveTyped": {
-    "prefix": "bm:vue:reactive-typed",
+    "prefix": "vue:reactive-typed",
     "body": ["const ${1:name}: ${2:type} = reactive({$3})"],
     "description": "Define a typed reactive object."
   },
   "VueShallowRef": {
-    "prefix": "bm:vue:shallow-ref",
+    "prefix": "vue:shallow-ref",
     "body": ["const ${1:name} = shallowRef($2)"],
     "description": "Define a shallowRef to prevent deep reactive conversion."
   },
   "VueToRef": {
-    "prefix": "bm:vue:to-ref",
+    "prefix": "vue:to-ref",
     "body": ["const ${1:prop} = toRef(${2:object}, '${1}')"],
     "description": "Create a reactive ref from a property on a reactive object."
   },
   "VueToRefs": {
-    "prefix": "bm:vue:to-refs",
+    "prefix": "vue:to-refs",
     "body": ["const { $1 } = toRefs(${2:props})"],
     "description": "Create a refs object from a reactive object to maintain reactivity."
   },
   "VueUnref": {
-    "prefix": "bm:vue:unref",
+    "prefix": "vue:unref",
     "body": ["const ${1:result} = unref(${2:ref})"],
     "description": "Unwrap ref or return plain value."
   },
   "VueReadonly": {
-    "prefix": "bm:vue:readonly",
+    "prefix": "vue:readonly",
     "body": ["const ${1:name} = readonly(${2:source})"],
     "description": "Create a readonly proxy of a reactive object."
   },
   "VueRefElement": {
-    "prefix": "bm:vue:ref-element",
+    "prefix": "vue:ref-element",
     "body": [
       "const ${1:elem} = ref<${2|HTMLDivElement, HTMLSpanElement, HTMLInputElement|} | null>(null)"
     ],
     "description": "Define a reactive reference for a DOM element with type."
   },
   "VueWatchEffect": {
-    "prefix": "bm:vue:watch-effect",
+    "prefix": "vue:watch-effect",
     "body": ["watchEffect(() => {", "  $0", "})"],
     "description": "Automatically track reactive dependencies and rerun on change."
   },
   "VueWatch": {
-    "prefix": "bm:vue:watch",
+    "prefix": "vue:watch",
     "body": ["watch(${1:ref}, (newValue, oldValue) => {", "  $0", "})"],
     "description": "Watch for changes on a reactive source."
   },
   "VueWatchInline": {
-    "prefix": "bm:vue:watch-inline",
+    "prefix": "vue:watch-inline",
     "body": ["watch(${1:ref}, ${2:callback})"],
     "description": "Inline watch for changes on a reactive source."
   },
   "VueWatchGetter": {
-    "prefix": "bm:vue:watch-getter",
+    "prefix": "vue:watch-getter",
     "body": ["watch(() => ${1:data}, (newValue, oldValue) => {", "  $0", "})"],
     "description": "Watch with a getter for fine-grained control."
   },
   "VueWatchMultiple": {
-    "prefix": "bm:vue:watch-multiple",
+    "prefix": "vue:watch-multiple",
     "body": [
       "watch([${1:ref1}, ${2:ref2}], ([newVal1, newVal2], [oldVal1, oldVal2]) => {",
       "  $0",
@@ -103,7 +103,7 @@
     "description": "Watch multiple sources."
   },
   "VueWatchImmediate": {
-    "prefix": "bm:vue:watch-immediate",
+    "prefix": "vue:watch-immediate",
     "body": [
       "watch(${1:ref}, (newValue, oldValue) => {",
       "  $0",
@@ -112,7 +112,7 @@
     "description": "Watch with immediate callback invocation."
   },
   "VueWatchDeep": {
-    "prefix": "bm:vue:watch-deep",
+    "prefix": "vue:watch-deep",
     "body": [
       "watch(${1:ref}, (newValue, oldValue) => {",
       "  $0",
@@ -121,7 +121,7 @@
     "description": "Watch with deep tracking."
   },
   "VueWatchLog": {
-    "prefix": "bm:vue:watch-log",
+    "prefix": "vue:watch-log",
     "body": [
       "watch(${1:ref}, (newValue, oldValue) => {",
       "  console.log('${1} changed from', oldValue, 'to', newValue);",
@@ -130,12 +130,12 @@
     "description": "Log changes of a watched source."
   },
   "VueProps": {
-    "prefix": "bm:vue:props",
+    "prefix": "vue:props",
     "body": ["const props = defineProps<${1:Props}>()"],
     "description": "Define component props with TypeScript."
   },
   "VuePropsDefaults": {
-    "prefix": "bm:vue:props-defaults",
+    "prefix": "vue:props-defaults",
     "body": [
       "const props = withDefaults(defineProps<${1:Props}>(), {",
       "  $0",
@@ -144,22 +144,22 @@
     "description": "Define props with default values."
   },
   "VuePropsJS": {
-    "prefix": "bm:vue:props-js",
+    "prefix": "vue:props-js",
     "body": ["const props = defineProps({", "  $0", "})"],
     "description": "Define component props without TypeScript."
   },
   "VueEmits": {
-    "prefix": "bm:vue:emits",
+    "prefix": "vue:emits",
     "body": ["const emit = defineEmits<${1:Events}>()"],
     "description": "Define component emits with TypeScript."
   },
   "VueEmitsAlt": {
-    "prefix": "bm:vue:emits-alt",
+    "prefix": "vue:emits-alt",
     "body": ["const emit = defineEmits(['${1:event}'])"],
     "description": "Define component emits without TypeScript."
   },
   "VueEmitsOld": {
-    "prefix": "bm:vue:emits-old",
+    "prefix": "vue:emits-old",
     "body": [
       "const emit = defineEmits<{",
       "  (e: '${1:event}', ${2:payload}): void",
@@ -168,107 +168,107 @@
     "description": "Old syntax for defining emits."
   },
   "VueModel": {
-    "prefix": "bm:vue:model",
+    "prefix": "vue:model",
     "body": ["const modelValue = defineModel<${1:type}>($2)"],
     "description": "Define a model value with TypeScript."
   },
   "VueEmit": {
-    "prefix": "bm:vue:emit",
+    "prefix": "vue:emit",
     "body": ["emit('${1:event}', $2)"],
     "description": "Emit an event."
   },
   "VueExpose": {
-    "prefix": "bm:vue:expose",
+    "prefix": "vue:expose",
     "body": ["defineExpose({", "  $0", "})"],
     "description": "Expose public properties and methods."
   },
   "VueOnMounted": {
-    "prefix": "bm:vue:on-mounted",
+    "prefix": "vue:on-mounted",
     "body": ["onMounted(() => {", "  $0", "})"],
     "description": "Vue lifecycle hook onMounted."
   },
   "VueOnBeforeMount": {
-    "prefix": "bm:vue:on-before-mount",
+    "prefix": "vue:on-before-mount",
     "body": ["onBeforeMount(() => {", "  $0", "})"],
     "description": "Vue lifecycle hook onBeforeMount."
   },
   "VueOnUnmounted": {
-    "prefix": "bm:vue:on-unmounted",
+    "prefix": "vue:on-unmounted",
     "body": ["onUnmounted(() => {", "  $0", "})"],
     "description": "Vue lifecycle hook onUnmounted."
   },
   "VueOnBeforeUnmount": {
-    "prefix": "bm:vue:on-before-unmount",
+    "prefix": "vue:on-before-unmount",
     "body": ["onBeforeUnmount(() => {", "  $0", "})"],
     "description": "Vue lifecycle hook onBeforeUnmount."
   },
   "VueOnUpdated": {
-    "prefix": "bm:vue:on-updated",
+    "prefix": "vue:on-updated",
     "body": ["onUpdated(() => {", "  $0", "})"],
     "description": "Vue lifecycle hook onUpdated."
   },
   "VueOnBeforeUpdate": {
-    "prefix": "bm:vue:on-before-update",
+    "prefix": "vue:on-before-update",
     "body": ["onBeforeUpdate(() => {", "  $0", "})"],
     "description": "Vue lifecycle hook onBeforeUpdate."
   },
   "VueOnErrorCaptured": {
-    "prefix": "bm:vue:on-error-captured",
+    "prefix": "vue:on-error-captured",
     "body": ["onErrorCaptured(() => {", "  $0", "})"],
     "description": "Vue lifecycle hook onErrorCaptured."
   },
   "VueOnActivated": {
-    "prefix": "bm:vue:on-activated",
+    "prefix": "vue:on-activated",
     "body": ["onActivated(() => {", "  $0", "})"],
     "description": "Vue lifecycle hook onActivated."
   },
   "VueOnDeactivated": {
-    "prefix": "bm:vue:on-deactivated",
+    "prefix": "vue:on-deactivated",
     "body": ["onDeactivated(() => {", "  $0", "})"],
     "description": "Vue lifecycle hook onDeactivated."
   },
   "VueProvide": {
-    "prefix": "bm:vue:provide",
+    "prefix": "vue:provide",
     "body": ["provide(${1:key}, ${2:value})"],
     "description": "Provide a reactive dependency."
   },
   "VueProvideTyped": {
-    "prefix": "bm:vue:provide-typed",
+    "prefix": "vue:provide-typed",
     "body": ["provide<${1:type}>(${2:key}, ${3:value})"],
     "description": "Provide a typed reactive dependency."
   },
   "VueInject": {
-    "prefix": "bm:vue:inject",
+    "prefix": "vue:inject",
     "body": ["const ${1:name} = inject(${2:key})"],
     "description": "Inject a dependency."
   },
   "VueInjectTyped": {
-    "prefix": "bm:vue:inject-typed",
+    "prefix": "vue:inject-typed",
     "body": ["const ${1:name} = inject<${2:type}>(${3:key})"],
     "description": "Inject a typed dependency."
   },
   "VueInjectDefault": {
-    "prefix": "bm:vue:inject-default",
+    "prefix": "vue:inject-default",
     "body": ["const ${1:name} = inject(${2:key}, ${3:defaultValue})"],
     "description": "Inject a dependency with a default value."
   },
   "VueInjectKey": {
-    "prefix": "bm:vue:inject-key",
+    "prefix": "vue:inject-key",
     "body": ["const ${1:key} = Symbol('${2}') as InjectionKey<${3:type}>"],
     "description": "Define an injection key."
   },
   "VueUseSlots": {
-    "prefix": "bm:vue:use-slots",
+    "prefix": "vue:use-slots",
     "body": ["const slots = useSlots()"],
     "description": "Access component slots."
   },
   "VueUseAttrs": {
-    "prefix": "bm:vue:use-attrs",
+    "prefix": "vue:use-attrs",
     "body": ["const attrs = useAttrs()"],
     "description": "Access component attributes."
   },
   "VueImport": {
-    "prefix": "bm:vue:import",
+    "prefix": "vue:import",
     "body": ["import { $1 } from 'vue'"],
     "description": "Import from Vue."
   }

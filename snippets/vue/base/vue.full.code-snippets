@@ -1,6 +1,6 @@
 {
   "VueFull": {
-    "prefix": "bm:vue:full",
+    "prefix": "vue:full",
     "body": [
       "<script lang=\"ts\" setup>",
       "${1}",
@@ -17,7 +17,7 @@
     "description": "Create a full Vue component"
   },
   "VueFullSrc": {
-    "prefix": "bm:vue:full:css:src",
+    "prefix": "vue:full:css:src",
     "body": [
       "<script lang=\"ts\" setup>",
       "${1}",
@@ -34,7 +34,7 @@
     "description": "Create a full Vue component with src attribute in style tag"
   },
   "VueFullCss": {
-    "prefix": "bm:vue:full:css",
+    "prefix": "vue:full:css",
     "body": [
       "<script lang=\"ts\" setup>",
       "${1}",
@@ -51,7 +51,7 @@
     "description": "Create a full Vue component with CSS styling"
   },
   "VueFullLess": {
-    "prefix": "bm:vue:full:less",
+    "prefix": "vue:full:less",
     "body": [
       "<script lang=\"ts\" setup>",
       "${1}",
@@ -68,7 +68,7 @@
     "description": "Create a full Vue component with Less styling"
   },
   "VueFullPostcss": {
-    "prefix": "bm:vue:full:postcss",
+    "prefix": "vue:full:postcss",
     "body": [
       "<script lang=\"ts\" setup>",
       "${1}",
@@ -85,7 +85,7 @@
     "description": "Create a full Vue component with PostCSS styling"
   },
   "VueFullSass": {
-    "prefix": "bm:vue:full:sass",
+    "prefix": "vue:full:sass",
     "body": [
       "<script lang=\"ts\" setup>",
       "${1}",
@@ -102,7 +102,7 @@
     "description": "Create a full Vue component with SASS styling"
   },
   "VueFullScss": {
-    "prefix": "bm:vue:full:scss",
+    "prefix": "vue:full:scss",
     "body": [
       "<script lang=\"ts\" setup>",
       "${1}",
@@ -119,7 +119,7 @@
     "description": "Create a full Vue component with SCSS styling"
   },
   "VueSlim": {
-    "prefix": "bm:vue:slim",
+    "prefix": "vue:slim",
     "body": [
       "<script lang=\"ts\" setup>",
       "${1}",
