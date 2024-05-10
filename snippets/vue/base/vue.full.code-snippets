@@ -1,0 +1,134 @@
+{
+  "VueFull": {
+    "prefix": "bm:vue:full",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "${1}",
+      "</script>",
+      "",
+      "<template>",
+      "   ${2}",
+      "</template>",
+      "",
+      "<style scoped>",
+      "${3}",
+      "</style>"
+    ],
+    "description": "Create a full Vue component"
+  },
+  "VueFullSrc": {
+    "prefix": "bm:vue:full:css:src",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "${1}",
+      "</script>",
+      "",
+      "<template>",
+      "   ${2}",
+      "</template>",
+      "",
+      "<style scoped src=\"${3:path/to/your/styles.css}\">",
+      "${4}",
+      "</style>"
+    ],
+    "description": "Create a full Vue component with src attribute in style tag"
+  },
+  "VueFullCss": {
+    "prefix": "bm:vue:full:css",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "${1}",
+      "</script>",
+      "",
+      "<template>",
+      "   ${2}",
+      "</template>",
+      "",
+      "<style lang=\"css\" scoped>",
+      "${3}",
+      "</style>"
+    ],
+    "description": "Create a full Vue component with CSS styling"
+  },
+  "VueFullLess": {
+    "prefix": "bm:vue:full:less",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "${1}",
+      "</script>",
+      "",
+      "<template>",
+      "   ${2}",
+      "</template>",
+      "",
+      "<style lang=\"less\" scoped>",
+      "${3}",
+      "</style>"
+    ],
+    "description": "Create a full Vue component with Less styling"
+  },
+  "VueFullPostcss": {
+    "prefix": "bm:vue:full:postcss",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "${1}",
+      "</script>",
+      "",
+      "<template>",
+      "   ${2}",
+      "</template>",
+      "",
+      "<style lang=\"postcss\" scoped>",
+      "${3}",
+      "</style>"
+    ],
+    "description": "Create a full Vue component with PostCSS styling"
+  },
+  "VueFullSass": {
+    "prefix": "bm:vue:full:sass",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "${1}",
+      "</script>",
+      "",
+      "<template>",
+      "   ${2}",
+      "</template>",
+      "",
+      "<style lang=\"sass\" scoped>",
+      "${3}",
+      "</style>"
+    ],
+    "description": "Create a full Vue component with SASS styling"
+  },
+  "VueFullScss": {
+    "prefix": "bm:vue:full:scss",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "${1}",
+      "</script>",
+      "",
+      "<template>",
+      "   ${2}",
+      "</template>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "${3}",
+      "</style>"
+    ],
+    "description": "Create a full Vue component with SCSS styling"
+  },
+  "VueSlim": {
+    "prefix": "bm:vue:slim",
+    "body": [
+      "<script lang=\"ts\" setup>",
+      "${1}",
+      "</script>",
+      "",
+      "<template>",
+      "   ${2}",
+      "</template>"
+    ],
+    "description": "Create a slim Vue component"
+  }
+}

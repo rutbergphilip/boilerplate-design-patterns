@@ -1,0 +1,80 @@
+{
+  "VueRouterUseRouter": {
+    "prefix": "bm:vue:use-router",
+    "body": ["const ${1:router} = useRouter()"],
+    "description": "Use Vue Router's useRouter hook."
+  },
+  "VueRouterUseRoute": {
+    "prefix": "bm:vue:use-route",
+    "body": ["const ${1:route} = useRoute()"],
+    "description": "Use Vue Router's useRoute hook."
+  },
+  "VueRouterCreate": {
+    "prefix": "bm:vue:create-router",
+    "body": [
+      "const router = createRouter({",
+      "  history: createWebHashHistory(),",
+      "  routes: ${1:routes},",
+      "  scrollBehavior(to, from, savedPosition) {",
+      "    $2",
+      "  }",
+      "})"
+    ],
+    "description": "Create a new Vue Router instance."
+  },
+  "VueRouterTo": {
+    "prefix": "bm:vue:router-to",
+    "body": ["${1|to,:to|}=\"$2\""],
+    "description": "Vue Router 'to' directive."
+  },
+  "VueRouterToParam": {
+    "prefix": "bm:vue:router-to-param",
+    "body": [":to=\"`$1${${2:id}}$3`\""],
+    "description": "Vue Router 'to' with parameter."
+  },
+  "VueRouterToObject": {
+    "prefix": "bm:vue:router-to-object",
+    "body": [":to=\"{ $1 }\""],
+    "description": "Vue Router 'to' as an object."
+  },
+  "VueRouterToName": {
+    "prefix": "bm:vue:router-to-name",
+    "body": [":to=\"{ name: '$1',$2 }\""],
+    "description": "Vue Router 'to' with route name."
+  },
+  "VueRouterToPath": {
+    "prefix": "bm:vue:router-to-path",
+    "body": [":to=\"{ path: '$1',$2 }\""],
+    "description": "Vue Router 'to' with a specific path."
+  },
+  "VueRouterView": {
+    "prefix": "bm:vue:router-view",
+    "body": ["<RouterView>", "  $0", "</RouterView>"],
+    "description": "Vue RouterView component."
+  },
+  "VueRouterLink": {
+    "prefix": "bm:vue:router-link",
+    "body": ["<RouterLink ${1|to,:to|}=\"$2\">$3</RouterLink>"],
+    "description": "Vue RouterLink component."
+  },
+  "VueRouterLinkParam": {
+    "prefix": "bm:vue:router-link-param",
+    "body": ["<RouterLink :to=\"`$1${${2:id}}$3`\">$4</RouterLink>"],
+    "description": "RouterLink component with a parameter."
+  },
+  "VueRouterLinkObject": {
+    "prefix": "bm:vue:router-link-object",
+    "body": ["<RouterLink :to=\"{ $1 }\">$2</RouterLink>"],
+    "description": "RouterLink component using object syntax."
+  },
+  "VueRouterLinkName": {
+    "prefix": "bm:vue:router-link-name",
+    "body": ["<RouterLink :to=\"{ name: '$1'$2 }\">$3</RouterLink>"],
+    "description": "RouterLink component with a named route."
+  },
+  "VueRouterLinkPath": {
+    "prefix": "bm:vue:router-link-path",
+    "body": ["<RouterLink :to=\"{ path: '$1'$2 }\">$3</RouterLink>"],
+    "description": "RouterLink component with a specific path."
+  }
+}
