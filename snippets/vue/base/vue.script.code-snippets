@@ -1,0 +1,12 @@
+{
+  "VueScript": {
+    "prefix": "vue:script",
+    "body": ["<script lang=\"ts\" setup>", "${1}", "</script>"],
+    "description": "Create a Vue component with only script"
+  },
+  "VueScriptJS": {
+    "prefix": "vue:script:js",
+    "body": ["<script setup>", "${1}", "</script>"],
+    "description": "Create a Vue component with only script in JavaScript"
+  }
+}

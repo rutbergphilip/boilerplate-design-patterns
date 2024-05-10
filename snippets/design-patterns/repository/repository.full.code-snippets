@@ -1,6 +1,6 @@
 {
   "Repository with operations": {
-    "prefix": "bm:design-patterns:repository:full",
+    "prefix": "design-patterns:repository:full",
     "body": [
       "export class ${1:Repository} {",
       "  constructor() {}",

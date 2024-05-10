@@ -1,6 +1,6 @@
 {
   "Repository without operations": {
-    "prefix": "bm:design-patterns:repository:slim",
+    "prefix": "design-patterns:repository:slim",
     "body": ["export class ${1:Repository} {", "  constructor() {}", "}"],
     "description": "Create a slim repository class without any operations"
   }

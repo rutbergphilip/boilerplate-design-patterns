@@ -1,6 +1,6 @@
 {
   "AbstractFactory": {
-    "prefix": "bm:design-patterns:abstract-factory",
+    "prefix": "design-patterns:abstract-factory",
     "body": [
       "interface ${1:AbstractWidget} {",
       "  ${2:perform}(): void;",

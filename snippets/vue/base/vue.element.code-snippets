@@ -1,0 +1,69 @@
+{
+  "VueTemplate": {
+    "prefix": "vue:template",
+    "body": ["<template>", "   ${1}", "</template>"],
+    "description": "Create a Vue component with only a template"
+  },
+  "VueTemplateName": {
+    "prefix": "vue:template:name",
+    "body": ["<template #${1:default}>", "   ${2}", "</template>"],
+    "description": "Create a Vue component with named template"
+  },
+  "VueSlot": {
+    "prefix": "vue:slot",
+    "body": ["<slot>${0}</slot>"],
+    "description": "Create a Vue slot with a name"
+  },
+  "VueSlotName": {
+    "prefix": "vue:slot:name",
+    "body": ["<slot name=\"${0:default}\">${1}</slot>"],
+    "description": "Create a Vue named slot"
+  },
+  "VueComponent": {
+    "prefix": "vue:component",
+    "body": ["<component>${0}</component>"],
+    "description": "Create a Vue component"
+  },
+  "VueKeepAlive": {
+    "prefix": "vue:keep-alive",
+    "body": ["<KeepAlive ${1}>", "  $0", "</KeepAlive>"],
+    "description": "Vue KeepAlive component"
+  },
+  "VueSuspense": {
+    "prefix": "vue:suspense",
+    "body": ["<Suspense>", "  $0", "</Suspense>"],
+    "description": "Vue Suspense component"
+  },
+  "VueSuspenseFallback": {
+    "prefix": "vue:suspense:fallback",
+    "body": [
+      "<Suspense>",
+      "  $0",
+      "  <template #fallback>",
+      "    $1",
+      "  </template>",
+      "</Suspense>"
+    ],
+    "description": "Vue Suspense component with fallback content"
+  },
+  "VueTeleport": {
+    "prefix": "vue:teleport",
+    "body": ["<Teleport to=\"$1\">", "  $0", "</Teleport>"],
+    "description": "Vue Teleport component"
+  },
+  "VueTransitionAppear": {
+    "prefix": "vue:transition:appear",
+    "body": ["<Transition appear ${1}>", "  $0", "</Transition>"],
+    "description": "Vue Transition component with appear attribute"
+  },
+  "VueTransition": {
+    "prefix": "vue:transition",
+    "body": ["<Transition ${1}>", "  $0", "</Transition>"],
+    "description": "Vue Transition component"
+  },
+  "VueTransitionName": {
+    "prefix": "vue:transition:name",
+    "body": ["<Transition name=\"$1\" ${2}>", "  $0", "</Transition>"],
+    "description": "Vue Transition component with name"
+  }
+}

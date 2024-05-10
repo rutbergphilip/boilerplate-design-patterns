@@ -1,0 +1,304 @@
+{
+  "vtext": {
+    "prefix": "vue:v-text",
+    "body": ["v-text=\"$1\""],
+    "description": "Vue v-text directive"
+  },
+  "vhtml": {
+    "prefix": "vue:v-html",
+    "body": ["v-html=\"$1\""],
+    "description": "Vue v-html directive"
+  },
+  "vshow": {
+    "prefix": "vue:v-show",
+    "body": ["v-show=\"$1\""],
+    "description": "Vue v-show directive"
+  },
+  "vif": {
+    "prefix": "vue:v-if",
+    "body": ["v-if=\"$1\""],
+    "description": "Vue v-if directive"
+  },
+  "veif": {
+    "prefix": "vue:v-else-if",
+    "body": ["v-else-if=\"$1\""],
+    "description": "Vue v-else-if directive"
+  },
+  "velse": {
+    "prefix": "vue:v-else",
+    "body": ["v-else"],
+    "description": "Vue v-else directive"
+  },
+  "vfor": {
+    "prefix": "vue:v-for",
+    "body": ["v-for=\"${2:item} in ${1:items}\" :key=\"$2$3\""],
+    "description": "Vue v-for directive"
+  },
+  "vfori": {
+    "prefix": "vue:v-for-indexed",
+    "body": ["v-for=\"(${2:item}, ${3:i}) in ${1:items}\" :key=\"${4:$3}\""],
+    "description": "Vue v-for (indexed) directive"
+  },
+  "vforr": {
+    "prefix": "vue:v-for-range",
+    "body": ["v-for=\"${1:n} in ${2:5}\" :key=\"$1\""],
+    "description": "Vue v-for range directive"
+  },
+  "vemit": {
+    "prefix": "vue:v-emit",
+    "body": ["emit('$1'$2)"],
+    "description": "Vue emit event"
+  },
+  "vemit:pass": {
+    "prefix": "vue:v-emit-pass",
+    "body": ["@${1|click,input,...|}=\"\\$emit('${2:$1}', \\$event)\""],
+    "description": "Vue pass emit event with argument"
+  },
+  "von": {
+    "prefix": "vue:v-on",
+    "body": ["v-on=\"${1:emits}\""],
+    "description": "Vue v-on directive"
+  },
+  "von:event": {
+    "prefix": "vue:v-on-event",
+    "body": ["@$1=\"$2\""],
+    "description": "Vue event handler"
+  },
+  "von:click": {
+    "prefix": "vue:v-on-click",
+    "body": ["@click=\"${1:onClick}\""],
+    "description": "Vue click event handler"
+  },
+  "von:input": {
+    "prefix": "vue:v-on-input",
+    "body": ["@input=\"${1:onInput}\""],
+    "description": "Vue input event handler"
+  },
+  "von:update": {
+    "prefix": "vue:v-on-update",
+    "body": ["@update=\"${1:onUpdate}\""],
+    "description": "Vue update event handler"
+  },
+  "von:change": {
+    "prefix": "vue:v-on-change",
+    "body": ["@change=\"${1:onChange}\""],
+    "description": "Vue change event handler"
+  },
+  "von:blur": {
+    "prefix": "vue:v-on-blur",
+    "body": ["@blur=\"${1:onBlur}\""],
+    "description": "Vue blur event handler"
+  },
+  "von:focus": {
+    "prefix": "vue:v-on-focus",
+    "body": ["@focus=\"${1:onFocus}\""],
+    "description": "Vue focus event handler"
+  },
+  "von:submit": {
+    "prefix": "vue:v-on-submit",
+    "body": ["@submit${1:.prevent}=\"${2:onSubmit}\""],
+    "description": "Vue submit event handler"
+  },
+  "vbind": {
+    "prefix": "vue:v-bind",
+    "body": ["v-bind=\"$1\""],
+    "description": "Vue v-bind directive"
+  },
+  "vbind:attrs": {
+    "prefix": "vue:v-bind-attrs",
+    "body": ["v-bind=\"\\$attrs\""],
+    "description": "Vue bind all attributes"
+  },
+  "vbind:props": {
+    "prefix": "vue:v-bind-props",
+    "body": ["v-bind=\"\\$props\""],
+    "description": "Vue bind all props"
+  },
+  "vbind:full": {
+    "prefix": "vue:v-bind-full",
+    "body": ["v-bind=\"[\\$props, \\$attrs]\""],
+    "description": "Vue bind props and attrs together"
+  },
+  "vmodel": {
+    "prefix": "vue:v-model",
+    "body": ["v-model=\"$1\""],
+    "description": "Vue v-model directive"
+  },
+  "vmodel:number": {
+    "prefix": "vue:v-model-number",
+    "body": ["v-model.number=\"$1\""],
+    "description": "Vue v-model number modifier"
+  },
+  "vmodel:trim": {
+    "prefix": "vue:v-model-trim",
+    "body": ["v-model.trim=\"$1\""],
+    "description": "Vue v-model trim modifier"
+  },
+  "vmodel:custom": {
+    "prefix": "vue:v-model-custom",
+    "body": ["v-model:${1:custom}=\"$2\""],
+    "description": "Vue custom v-model directive"
+  },
+  "vslot": {
+    "prefix": "vue:v-slot",
+    "body": ["v-slot=\"{$1}\""],
+    "description": "Vue scoped slot"
+  },
+  "vpre": {
+    "prefix": "vue:v-pre",
+    "body": ["v-pre=\"$1\""],
+    "description": "Vue v-pre directive"
+  },
+  "vonce": {
+    "prefix": "vue:v-once",
+    "body": ["v-once"],
+    "description": "Vue v-once directive"
+  },
+  "vmemo": {
+    "prefix": "vue:v-memo",
+    "body": ["v-memo=\"[$1]\""],
+    "description": "Vue v-memo directive"
+  },
+  "vcloak": {
+    "prefix": "vue:v-cloak",
+    "body": ["v-cloak"],
+    "description": "Vue v-cloak directive"
+  },
+  "vkey": {
+    "prefix": "vue:v-key",
+    "body": [":key=\"$1\""],
+    "description": "Vue key attribute"
+  },
+  "vref": {
+    "prefix": "vue:v-ref",
+    "body": ["ref=\"$1\""],
+    "description": "Vue ref attribute"
+  },
+  "vname": {
+    "prefix": "vue:v-name",
+    "body": ["${1|name,:name|}=\"$2\""],
+    "description": "Vue name property"
+  },
+  "vis": {
+    "prefix": "vue:v-is",
+    "body": ["${1|is,:is|}=\"$2\""],
+    "description": "Vue is property"
+  },
+  "vb": {
+    "prefix": "vue:v-bind-attribute",
+    "body": [":${1:prop}=\"${2:$1}\""],
+    "description": "Vue bind attribute"
+  },
+  "va": {
+    "prefix": "vue:v-attribute",
+    "body": ["${1:prop}=\"$2\""],
+    "description": "Vue attribute"
+  },
+  "vclass": {
+    "prefix": "vue:v-class",
+    "body": [":class=\"$1\""],
+    "description": "Vue classes binding"
+  },
+  "vclass:list": {
+    "prefix": "vue:v-class-list",
+    "body": [":class=\"[$1]\""],
+    "description": "Vue class list binding"
+  },
+  "vclass:cond": {
+    "prefix": "vue:v-class-conditional",
+    "body": [":class=\"{ $1: $2 }\""],
+    "description": "Vue conditional class binding"
+  },
+  "vstyle": {
+    "prefix": "vue:v-style",
+    "body": [":style=\"{ $1: $2 }\""],
+    "description": "Vue inline style"
+  },
+  "vstyle:list": {
+    "prefix": "vue:v-style-list",
+    "body": [":style=\"[$1]\""],
+    "description": "Vue style list"
+  },
+  "vv": {
+    "prefix": "vue:v-vue",
+    "body": ["{{ $1 }}"],
+    "description": "Vue template expression"
+  },
+  "vvt": {
+    "prefix": "vue:i18n",
+    "body": ["{{ t('$1') }}"],
+    "description": "Vue i18n translation"
+  },
+  "vif:slot": {
+    "prefix": "vue:v-if-slot",
+    "body": ["v-if=\"\\$slots.${1:default}\""],
+    "description": "Check if slot is defined"
+  },
+  "vif:slot-prop": {
+    "prefix": "vue:v-if-slot-or-prop",
+    "body": ["v-if=\"\\$slots.${1:label} || ${2:$1}\""],
+    "description": "Check if slot or prop is defined"
+  },
+  "vform": {
+    "prefix": "vue:v-form",
+    "body": [
+      "<form @submit${1:.prevent}=\"${2:onSubmit}\">",
+      "  $0",
+      "</form>"
+    ],
+    "description": "Vue form submission with prevent modifier"
+  },
+  "vfor:template": {
+    "prefix": "vue:v-for-template",
+    "body": [
+      "<${1|template,div,...|} v-for=\"${3:item} in ${2:items}\" :key=\"$3$4\">",
+      "  $0",
+      "</$1>"
+    ],
+    "description": "Vue v-for directive within a template or element"
+  },
+  "vfori:template": {
+    "prefix": "vue:v-for-indexed-template",
+    "body": [
+      "<${1|template,div,...|} v-for=\"(${3:item}, ${4:i}) in ${2:items}\" :key=\"${5:$4}\">",
+      "  $0",
+      "</$1>"
+    ],
+    "description": "Indexed Vue v-for within a template"
+  },
+  "vif:template": {
+    "prefix": "vue:v-if-template",
+    "body": ["<${1|template,div,...|} v-if=\"$2\">", "  $0", "</$1>"],
+    "description": "Vue v-if within a specific template"
+  },
+  "vtif": {
+    "prefix": "vue:template-v-if",
+    "body": ["<template v-if=\"$2\">", "  $0", "</template>"],
+    "description": "Template tag with v-if"
+  },
+  "vdif": {
+    "prefix": "vue:div-v-if",
+    "body": ["<div v-if=\"$2\">", "  $0", "</div>"],
+    "description": "Div tag with v-if"
+  },
+  "vbindFunction": {
+    "prefix": "vue:v-bind-function",
+    "body": ["v-bind($0)"],
+    "description": "Vue v-bind function directive"
+  },
+  "deep": {
+    "prefix": "vue:deep",
+    "body": [":deep($1)"],
+    "description": "Vue :deep() CSS selector to penetrate scoped styles"
+  },
+  "slot": {
+    "prefix": "vue:slotted",
+    "body": [":slotted($1)"],
+    "description": "Vue :slotted() CSS selector to style slotted content"
+  },
+  "global": {
+    "prefix": "vue:global",
+    "body": [":global($1)"],
+    "description": "Vue :global() CSS selector to apply global styles inside scoped"
+  }
+}

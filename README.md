@@ -15,6 +15,10 @@ Coming
 - [x] Abstract Factory
 - [x] Builder
 
+### Frameworks & Libraries
+
+- [x] Vue
+
 ## Upcoming Boilerplates
 
 ### Design Patterns
@@ -42,14 +46,22 @@ Coming
 
 ### Frameworks & Libraries
 
-- [ ] Vue
 - [ ] React
+- [ ] Nuxt
+- [ ] Next
 - [ ] Angular
 - [ ] Svelte
 - [ ] Express
 - [ ] Fastify
 - [ ] Koa
 - [ ] Docker
+
+### Algorithms
+
+- [ ] Quick Sort
+- [ ] Binary Search
+- [ ] Levenshtein Distance
+- [ ] Fisher-Yates Shuffle
 
 ## Known Issues
 

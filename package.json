@@ -30,6 +30,34 @@
       {
         "language": "typescript",
         "path": "./snippets/design-patterns/builder/builder.full.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue/base/vue.full.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue/base/vue.element.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue/base/vue.script.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue/base/vue.style.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue/base/vue.directive.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue/script/vue.composables.code-snippets"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue/router/vue.router.code-snippets"
       }
     ]
   }

@@ -1,0 +1,57 @@
+{
+  "VueCSSExternal": {
+    "prefix": "vue:css:src",
+    "body": ["<style scoped src=\"${1:path/to/your/styles.css}\">", "</style>"],
+    "description": "Link a Vue style tag to an external CSS file"
+  },
+  "VueCSS": {
+    "prefix": "vue:css",
+    "body": ["<style scoped>", "${1:/* CSS styles here */}", "</style>"],
+    "description": "Create a Vue style tag with CSS"
+  },
+  "VueLess": {
+    "prefix": "vue:less",
+    "body": [
+      "<style lang=\"less\" scoped>",
+      "${1:/* Less styles here */}",
+      "</style>"
+    ],
+    "description": "Create a Vue style tag with Less"
+  },
+  "VueCSSModule": {
+    "prefix": "vue:css-module",
+    "body": [
+      "<style module>",
+      "${1:/* CSS styles here as CSS Modules */}",
+      "</style>"
+    ],
+    "description": "Create a Vue style tag with CSS Module"
+  },
+  "VuePostCSS": {
+    "prefix": "vue:postcss",
+    "body": [
+      "<style lang=\"postcss\" scoped>",
+      "${1:/* PostCSS styles here */}",
+      "</style>"
+    ],
+    "description": "Create a Vue style tag with PostCSS"
+  },
+  "VueSASS": {
+    "prefix": "vue:sass",
+    "body": [
+      "<style lang=\"sass\" scoped>",
+      "${1:/* SASS styles here */}",
+      "</style>"
+    ],
+    "description": "Create a Vue style tag with SASS"
+  },
+  "VueSCSS": {
+    "prefix": "vue:scss",
+    "body": [
+      "<style lang=\"scss\" scoped>",
+      "${1:/* SCSS styles here */}",
+      "</style>"
+    ],
+    "description": "Create a Vue style tag with SCSS"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "Factory": {
-    "prefix": "bm:design-patterns:factory",
+    "prefix": "design-patterns:factory",
     "body": [
       "interface Widget {",
       "  perform(): void;",
