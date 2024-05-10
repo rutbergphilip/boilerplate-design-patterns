@@ -56,6 +56,13 @@ Coming
 - [ ] Koa
 - [ ] Docker
 
+### Algorithms
+
+- [ ] Quick Sort
+- [ ] Binary Search
+- [ ] Levenshtein Distance
+- [ ] Fisher-Yates Shuffle
+
 ## Known Issues
 
 ...
