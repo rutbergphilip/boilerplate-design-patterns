@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-master",
-  "displayName": "Boilerplate Master",
-  "description": "Quickly generate boilerplate code for your projects.",
+  "name": "snippet-master",
+  "displayName": "Snippet Master",
+  "description": "The last snippet extension you'll ever need.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
