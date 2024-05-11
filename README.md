@@ -1,12 +1,12 @@
-# Boilerplate Master
+# Snippet Master
 
-Quickly generate boilerplate code for your projects.
+The last snippet extension you'll ever need.
 
 ## Usage
 
 Coming
 
-## Implemented Boilerplates
+## Implemented Snippets
 
 ### Design Patterns
 
@@ -19,7 +19,7 @@ Coming
 
 - [x] Vue
 
-## Upcoming Boilerplates
+## Upcoming Snippets
 
 ### Design Patterns
 
@@ -71,7 +71,7 @@ Coming
 
 ### 1.0.0
 
-Initial release of Boilerplate Master
+Initial release of Snippet Master
 
 ---
 
